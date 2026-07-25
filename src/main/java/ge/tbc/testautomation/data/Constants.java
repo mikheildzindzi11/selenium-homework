@@ -21,6 +21,26 @@ public final class Constants {
     public static final String ULTIMATEQA_CONSULTING_URL = "https://ultimateqa.com/consulting/";
     public static final String SERVICES_LINK_TEXT = "Services";
 
+    // jqueryui.com/slider (LocatorsTest#unorderedListTest)
+    public static final String JQUERY_UI_SLIDER_URL = "https://jqueryui.com/slider/";
+    public static final String WIDGET_TITLE_CLASS = "widget-title";
+    public static final String EFFECTS_TITLE_TEXT = "Effects";
+    public static final String FILTER_LETTER = "o";
+    public static final String ANIMATE_KEYWORD = "animate";
+
+    // add_remove_elements page (LocatorsTest#buttonsTest)
+    public static final String ADD_REMOVE_ELEMENTS_URL = "http://the-internet.herokuapp.com/add_remove_elements/";
+    public static final String ADD_ELEMENT_BUTTON_TEXT = "Add Element";
+    public static final String CLASS_ATTRIBUTE = "class";
+    public static final String ADDED_MANUALLY_CLASS = "added-manually";
+    public static final String ONCLICK_ATTRIBUTE = "onclick";
+    public static final String DELETE_ELEMENT_ONCLICK_VALUE = "deleteElement()";
+    public static final String DELETE_ONCLICK_PREFIX = "deleteElement";
+
+    // challenging_dom page (LocatorsTest#challengingDomTest)
+    public static final String CHALLENGING_DOM_URL = "http://the-internet.herokuapp.com/challenging_dom";
+    public static final String TARGET_IPSUM_VALUE = "Apeirian9";
+
     private Constants() {
         // utility class - no instances
     }
