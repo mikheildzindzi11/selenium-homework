@@ -1,4 +1,4 @@
-package src.test.java;
+package ge.tbc.testautomation;
 
 import ge.tbc.testautomation.data.Constants;
 import org.openqa.selenium.By;
