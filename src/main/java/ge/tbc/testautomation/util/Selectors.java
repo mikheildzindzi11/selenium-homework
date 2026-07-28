@@ -22,5 +22,7 @@ public final class Selectors {
                     "universalSelector only supports Select or WebElement, got: "
                             + (element == null ? "null" : element.getClass()));
         }
+
+        System.out.println("I AM A CHANGE MEANWHILE");
     }
 }
