@@ -24,5 +24,6 @@ public final class Selectors {
         }
 
         System.out.println("I AM A FIX");
+        System.out.println("I AM A CHANGE MEANWHILE");
     }
 }
