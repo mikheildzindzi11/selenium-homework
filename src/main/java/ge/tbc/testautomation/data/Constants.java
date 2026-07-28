@@ -7,6 +7,10 @@ public final class Constants {
     public static final String DYNAMIC_CONTROLS_HEADING = "Dynamic Controls";
     public static final String DYNAMIC_CONTROLS_DESCRIPTION =
             "This example demonstrates when elements (e.g., checkbox, input field, etc.) are changed asynchronously.";
+    public static final String ENABLE_BUTTON_TEXT = "Enable";
+    public static final String DISABLE_BUTTON_TEXT = "Disable";
+    public static final String LOADING_INDICATOR_ID = "loading";
+    public static final String ACCESS_GRANTED_TEXT = "ACCESS GRANTED";
 
     // drag_and_drop page (WebElementTest)
     public static final String DRAG_AND_DROP_URL = "http://the-internet.herokuapp.com/drag_and_drop";
@@ -40,6 +44,32 @@ public final class Constants {
     // challenging_dom page (LocatorsTest#challengingDomTest)
     public static final String CHALLENGING_DOM_URL = "http://the-internet.herokuapp.com/challenging_dom";
     public static final String TARGET_IPSUM_VALUE = "Apeirian9";
+
+    // tympanus custom dropdown (FormsTest#customDropDownTest)
+    public static final String CUSTOM_DROPDOWN_BASE_URL = "https://tympanus.net/Tutorials/CustomDropDownListStyling/";
+    public static final String DEMO2_LINK_SELECTOR = "a[href$='index2.html']";
+    public static final String CUSTOM_DROPDOWN_TOGGLE_SELECTOR = ".wrapper-dropdown-2";
+    public static final String CUSTOM_DROPDOWN_MENU_SELECTOR = ".wrapper-dropdown-2 .dropdown";
+    public static final String GITHUB_OPTION_TEXT = "Github";
+
+    // techcanvass register form (FormsTest#nativeDropDownTest)
+    public static final String REGISTER_PAGE_URL = "https://techcanvass.com/examples/register.html";
+    public static final String MODEL_OPTION_TEXT = "Mega 123 Medium screen";
+    public static final String DUMMY_TEXT_VALUE = "Test User";
+    public static final String DUMMY_EMAIL_VALUE = "testuser@example.com";
+
+    // demoqa progress bar (WaitsTest#waitForText)
+    public static final String PROGRESS_BAR_URL = "https://demoqa.com/progress-bar";
+    public static final String PROGRESS_BAR_BUTTON_ID = "startStopButton";
+    public static final String PROGRESS_BAR_ID = "progressBar";
+    public static final String PROGRESS_COMPLETE_TEXT = "100%";
+    public static final String RESET_BUTTON_TEXT = "Reset";
+
+    // techlistic web table article (bonus ScrollTest)
+    public static final String TECHLISTIC_WEBTABLE_ARTICLE_URL =
+            "https://www.techlistic.com/2017/02/automate-demo-web-table-with-selenium.html";
+    public static final String POPULAR_TUTORIALS_HEADING_TEXT = "Popular Tutorials";
+
 
     private Constants() {
         // utility class - no instances
