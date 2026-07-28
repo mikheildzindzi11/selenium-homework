@@ -74,8 +74,8 @@ public class LocatorsTest {
     public void challengingDomTest() {
         driver.get(Constants.CHALLENGING_DOM_URL);
 
-        WebElement loremCell = driver.findElement(By.xpath(
-                "//td[text()='" + Constants.TARGET_IPSUM_VALUE + "']/preceding-sibling::td[1]"));
+        String xpath = String.format("//td[text()='%s']/preceding-sibling::td[1]", Constants.TARGET_IPSUM_VALUE);
+        WebElement loremCell = driver.findElement(By.xpath(xpath));
 
         System.out.println(loremCell.getText());
     }
